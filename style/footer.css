@@ -1,0 +1,48 @@
+.product-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    border-top: solid;
+    border-width: 1px;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(0, 5, 58);
+
+}
+
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product-footer img{
+    width: 30px;
+    height: 20px;
+}
+
+.information-text,.customer-care-text,.help-text,.contact-us-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.page-text,.team-text,.customer-service-text,.pricing-text,.faq-text,.statement-text,.term-text,.policy-text,.shipping-text,.return-text,.how-text,.privacy-text,.need-text,.number-text{
+
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: white;
+    transition: color 0.2s;
+}
+
+.page-text:hover,.team-text:hover,.customer-service-text:hover,.pricing-text:hover,.faq-text:hover,.statement-text:hover,.term-text:hover,.policy-text:hover,.shipping-text:hover,.return-text:hover,.how-text:hover,.privacy-text:hover,.need-text:hover,.number-text:hover{
+
+  color: red;
+}
