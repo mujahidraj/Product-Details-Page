@@ -1,0 +1,150 @@
+.suggestion-section{
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: solid;
+    border-width: 1px;
+}
+
+.suggestion-section-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.suggestion-section img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 250px;
+    margin-right: 10px;
+    
+}
+
+.first-suggestion{
+    width: 200px;
+    height: 350px;
+    border: none;
+    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px 1px rgb(164, 164, 164);
+    transition: box-shadow 0.2s ,width 0.4s ,height 0.4s;
+    
+    
+    
+}
+
+.second-suggestion{
+    width: 200px;
+    height: 350px;
+ 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px 1px rgb(164, 164, 164);
+    transition: box-shadow 0.2s ,width 0.4s ,height 0.4s;
+
+
+
+}
+
+
+
+.third-suggestion{
+    width: 200px;
+    height: 350px;
+   
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px 1px rgb(164, 164, 164);
+    transition: box-shadow 0.2s ,width 0.4s ,height 0.4s;
+
+
+}
+
+.forth-suggestion{
+    width: 200px;
+    height: 350px;
+  
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px 1px rgb(164, 164, 164);
+    transition: box-shadow 0.2s ,width 0.4s ,height 0.4s;
+
+
+    
+}
+
+
+
+.first-suggestion:hover{
+
+    box-shadow: 0px 0px 6px 5px rgb(164, 164, 164);
+    width: 230px;
+    height: 380px;
+    
+}
+
+
+.third-suggestion:hover{
+
+    box-shadow: 0px 0px 6px 5px rgb(164, 164, 164);
+    width: 230px;
+    height: 380px;
+}
+.second-suggestion:hover{
+
+    box-shadow: 0px 0px 6px 5px rgb(164, 164, 164);
+    width: 230px;
+    height: 380px;
+}
+
+.forth-suggestion:hover{
+    box-shadow: 0px 0px 6px 5px rgb(164, 164, 164);
+    width: 230px;
+    height: 380px;
+}
+
+.suggestion-name-1 , .suggestion-name-2 , .suggestion-name-3 ,.suggestion-name-4{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding-right: 25px;
+    margin-left: 10px;
+}
+
+.suggestion-discount-1 ,.suggestion-discount-2,.suggestion-discount-3,.suggestion-discount-4{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: rgb(74, 74, 74);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.suggestion-price-1 ,.suggestion-price-2, .suggestion-price-3, .suggestion-price-4{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: rgb(74, 74, 74);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
