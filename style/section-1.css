@@ -1,0 +1,128 @@
+.details-section{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.details-section-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 10px;
+    
+}
+
+.product-img-div{
+    flex: 3;
+    
+}
+
+.product-img{
+    display: flex;
+    margin-right: 30px;
+    width: 300px;
+    height: 300px;
+    transition: width 0.5s,height 0.5s, box-shadow 0.5s;
+    
+}
+
+.product-img:hover{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 25px 5px darkgray;
+}
+    
+
+.details{
+    flex: 1;
+}
+
+.product-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-price{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: rgb(87, 87, 87);
+}
+
+.product-quantity{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.quantity-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+
+.input-number{
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    transition: padding-top,padding-bottom,padding-left,padding-right 0.2s;
+   
+    
+}
+
+.input-number:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.add-cart-button{
+    display: flex;
+    background-color: rgb(131, 199, 254);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    border-color: rgb(204, 204, 204);
+    transition: background-color 0.2s,box-shadow 0.2s;
+
+}
+
+.add-cart{
+    margin-bottom: 30px;
+}
+
+.details-text{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.product-details{
+    font-family: 'Times New Roman', Times, serif;
+    font: 15px;
+    flex: 1;
+    width: 400px;
+    color: rgb(92, 92, 92);
+}
